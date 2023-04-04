@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Input Form</title>
+  </head>
+  <body>
+    <h1>Input Form</h1>
+    <form method="post" action="/submit">
+      <label for="year">Year:</label>
+      <input type="text" id="year" name="year"><br><br>
+      
+      <label for="age">Age:</label>
+      <input type="text" id="age" name="age"><br><br>
+      
+      <label for="nearest_mrt_distance">Nearest MRT Distance:</label>
+      <input type="text" id="nearest_mrt_distance" name="nearest_mrt_distance"><br><br>
+      
+      <label for="no_of_convenience_stores">No of Convenience Stores:</label>
+      <input type="text" id="no_of_convenience_stores" name="no_of_convenience_stores"><br><br>
+      
+      <label for="latitude">Latitude:</label>
+      <input type="text" id="latitude" name="latitude"><br><br>
+      
+      <label for="longitude">Longitude:</label>
+      <input type="text" id="longitude" name="longitude"><br><br>
+      
+      <input type="submit" value="Submit">
+    </form>
+    
+    <h2>Result:</h2>
+    <div id="result"></div>
+    <h2>{{ result }}</h2>
+    
+  </body>
+</html>
